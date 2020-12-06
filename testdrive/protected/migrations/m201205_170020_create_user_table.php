@@ -4,6 +4,8 @@ class m201205_170020_create_user_table extends CDbMigration
 {
 	public function up()
 	{
+        $this->execute('DELETE * FROM `tbl_migration`');
+
         $this->createTable('user', array(
             'id' => 'integer(11) NOT NULL PRIMARY KEY AUTO_INCREMENT',
             'username' => 'varchar(128) NOT NULL',
