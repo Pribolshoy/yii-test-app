@@ -132,7 +132,7 @@ class UserController extends Controller
         //         $this->performAjaxValidation($model);
 
         // if it is ajax validation request
-        if(isset($_POST['ajax']) && $_POST['ajax']==='user-to-comment-form') {
+        if(isset($_POST['ajax']) && $_POST['ajax']==='user-form') {
             echo CActiveForm::validate($model);
             Yii::app()->end();
         }

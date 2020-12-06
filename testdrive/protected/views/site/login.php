@@ -12,11 +12,12 @@ $this->breadcrumbs=array(
 <h1 class="mb-5">Авторизация</h1>
 
 <div class="form">
+    
 <?php $form=$this->beginWidget(
     'CActiveForm', array(
     'id'=>'login-form',
     'htmlOptions' => ['class' => 'form-horizontal'],
-    'enableClientValidation'=>true,
+    'enableClientValidation'=>false,
     'clientOptions'=>array(
         'validateOnSubmit'=>true,
     ),

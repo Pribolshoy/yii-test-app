@@ -39,8 +39,8 @@ return array(
 			'allowAutoLogin'=>true,
 		),
         'request'=>array(
-            'enableCsrfValidation'=>true,
-            'enableCookieValidation'=>true,
+            'enableCsrfValidation'=>false,
+            'enableCookieValidation'=>false,
         ),
 		// uncomment the following to enable URLs in path-format
 		

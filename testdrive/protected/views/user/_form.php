@@ -4,7 +4,7 @@
     'CActiveForm', array(
     'id'=>'user-form',
     'htmlOptions' => ['enctype'=>'multipart/form-data', 'class' => 'form-horizontal'],
-    'enableAjaxValidation'=>false,
+    'enableClientValidation'=>true,
     'clientOptions'=>array(
         'validateOnSubmit'=>true,
     ),
